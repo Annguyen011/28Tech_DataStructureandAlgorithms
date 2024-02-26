@@ -54,5 +54,8 @@
     <ClCompile Include="BT_5.cpp">
       <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
     </ClCompile>
+    <ClCompile Include="BT_6.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
