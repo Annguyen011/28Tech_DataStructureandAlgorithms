@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
 	int a[1001][1001];
+	int d[1001];
 	int n;
 	int m;
 
@@ -25,16 +26,19 @@ int main()
 	{
 		for (size_t j = 0; j < m; j++)
 		{
-			if (i == 0 || j == 0 || i == n || j == m)
+			if (d[a[i][j]] == i)
 			{
-				cout << a[i][j];
-			}
-			else
-			{
-				cout << " ";
+				d[a[i][j]] = i + 1;
 			}
 		}
-		cout << endl;
+	}
+
+	for (int i = 0; i < 1001; i++)
+	{
+		if (d[i] == n - 1)
+		{
+			cout << i << " ";
+		}
 	}
 
 	return 0;
