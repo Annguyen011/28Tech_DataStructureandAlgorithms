@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Bai10_ThuatToanSinh">
+      <UniqueIdentifier>{043e77e8-5e36-4b98-9762-2d053827da7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bai 1.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Giang_Bai 1.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
