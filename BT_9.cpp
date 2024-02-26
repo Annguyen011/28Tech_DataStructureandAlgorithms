@@ -11,7 +11,6 @@ void Ql(int i);
 
 int main()
 {
-	cout << "Hello";
 
 	return 0;
 }
