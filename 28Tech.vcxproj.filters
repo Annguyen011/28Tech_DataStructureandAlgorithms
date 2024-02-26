@@ -18,7 +18,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Giang_Bai 1.cpp">
+    <ClCompile Include="GB_1.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+    </ClCompile>
+    <ClCompile Include="GB_2.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+    </ClCompile>
+    <ClCompile Include="GB_3.cpp">
       <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
     </ClCompile>
   </ItemGroup>
