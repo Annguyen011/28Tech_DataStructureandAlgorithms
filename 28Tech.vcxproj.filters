@@ -16,22 +16,34 @@
     <Filter Include="Source Files\Bai10_ThuatToanSinh">
       <UniqueIdentifier>{043e77e8-5e36-4b98-9762-2d053827da7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bai10_ThuatToanSinh\GB">
+      <UniqueIdentifier>{dcf71beb-d7be-4a40-b73f-9b45226a9bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bai10_ThuatToanSinh\BT">
+      <UniqueIdentifier>{81c329a5-9ec4-4939-8e6c-1501503769fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GB_5.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\GB</Filter>
+    </ClCompile>
     <ClCompile Include="GB_1.cpp">
-      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+      <Filter>Source Files\Bai10_ThuatToanSinh\GB</Filter>
     </ClCompile>
     <ClCompile Include="GB_2.cpp">
-      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+      <Filter>Source Files\Bai10_ThuatToanSinh\GB</Filter>
     </ClCompile>
     <ClCompile Include="GB_3.cpp">
-      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+      <Filter>Source Files\Bai10_ThuatToanSinh\GB</Filter>
     </ClCompile>
     <ClCompile Include="GB_4.cpp">
-      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+      <Filter>Source Files\Bai10_ThuatToanSinh\GB</Filter>
     </ClCompile>
-    <ClCompile Include="GB_5.cpp">
-      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+    <ClCompile Include="BT_1.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_2.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
