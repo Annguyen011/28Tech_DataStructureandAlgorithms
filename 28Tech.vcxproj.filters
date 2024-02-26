@@ -60,5 +60,11 @@
     <ClCompile Include="BT_7.cpp">
       <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
     </ClCompile>
+    <ClCompile Include="BT_8.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_9.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
