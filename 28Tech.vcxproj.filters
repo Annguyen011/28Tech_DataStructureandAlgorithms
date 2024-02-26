@@ -27,5 +27,8 @@
     <ClCompile Include="GB_3.cpp">
       <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
     </ClCompile>
+    <ClCompile Include="GB_4.cpp">
+      <Filter>Source Files\Bai10_ThuatToanSinh</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
