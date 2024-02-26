@@ -3,7 +3,7 @@
 using namespace std;
 
 int n;
-int lenght = 100;
+int k;
 int a[1001];
 int ok = 0;
 
@@ -13,19 +13,13 @@ void Sinh();
 int main()
 {
 	cin >> n;
+	cin >>  k;
 	KhoiTao();
 	while (!ok)
 	{
-		for (size_t i = 1; i <= n; i++)
+		for (size_t i = 1; i <= k; i++)
 		{
-			if (a[i] == 0)
-			{
-				cout << "A";
-			}
-			else
-			{
-				cout << "B";
-			}
+			cout << a[i];
 		}
 		cout << endl;
 		Sinh();
@@ -36,18 +30,18 @@ int main()
 // Tao ra cau hinh ban dau
 void KhoiTao()
 {
-	for (size_t i = 1; i <= n; i++)
+	for (size_t i = 1; i <= k; i++)
 	{
-		a[i] = 0;
+		a[i] = i;
 	}
 }
 
 // Sinh ra cau hinh tiep theo
 void Sinh()
 {
-	int i = n;
+	int i = k;
 
-	while (i >= 1 && a[i] == 1)
+	while (i >= 1 && a[i] == n - k + i)
 	{
 		a[i] = 0;
 		--i;
@@ -60,6 +54,11 @@ void Sinh()
 	}
 	else
 	{
-		a[i] = 1;
+		a[i]++;
+
+		for (size_t j = i + 1; j <= k; j++)
+		{
+			a[j] = a[j - 1] + 1;
+		}
 	}
 }
