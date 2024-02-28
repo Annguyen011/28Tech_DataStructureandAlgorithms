@@ -90,5 +90,8 @@
     <ClCompile Include="BG_2.cpp">
       <Filter>Source Files\Bai11_QuayLui\BaiGiang</Filter>
     </ClCompile>
+    <ClCompile Include="BG_3.cpp">
+      <Filter>Source Files\Bai11_QuayLui\BaiGiang</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
