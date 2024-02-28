@@ -22,6 +22,12 @@
     <Filter Include="Source Files\Bai10_ThuatToanSinh\BT">
       <UniqueIdentifier>{81c329a5-9ec4-4939-8e6c-1501503769fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bai11_QuayLui">
+      <UniqueIdentifier>{d305ab58-f3ae-4872-983d-fc84fba674b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bai11_QuayLui\BaiGiang">
+      <UniqueIdentifier>{7027b0e8-6c5d-4036-b43d-dccc0c10b012}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GB_5.cpp">
@@ -77,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="BT_12.cpp">
       <Filter>Source Files\Bai10_ThuatToanSinh\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BG_1.cpp">
+      <Filter>Source Files\Bai11_QuayLui\BaiGiang</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
