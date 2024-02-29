@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Bai11_QuayLui\BaiGiang">
       <UniqueIdentifier>{7027b0e8-6c5d-4036-b43d-dccc0c10b012}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bai11_QuayLui\BT">
+      <UniqueIdentifier>{584f0b50-45cd-47e5-8d09-b35954121a3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GB_5.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="BG_3.cpp">
       <Filter>Source Files\Bai11_QuayLui\BaiGiang</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_11_1.cpp">
+      <Filter>Source Files\Bai11_QuayLui\BT</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
