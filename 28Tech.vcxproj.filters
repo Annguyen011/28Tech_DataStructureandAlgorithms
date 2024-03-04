@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Bai12_QuayLuiNhanhCan\BG">
       <UniqueIdentifier>{8623523e-32e8-495b-a770-2cb24b983e8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bai13">
+      <UniqueIdentifier>{21829173-24f9-4760-9849-70ba52a7a678}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GB_5.cpp">
@@ -122,6 +125,33 @@
     </ClCompile>
     <ClCompile Include="BT_12_5.cpp">
       <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_6.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_7.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_8.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_9.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_10.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_11.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_12_12.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="BG_13_1.cpp">
+      <Filter>Source Files\Bai13</Filter>
+    </ClCompile>
+    <ClCompile Include="BG_13_2.cpp">
+      <Filter>Source Files\Bai13</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
