@@ -120,5 +120,8 @@
     <ClCompile Include="BT_12_4.cpp">
       <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
     </ClCompile>
+    <ClCompile Include="BT_12_5.cpp">
+      <Filter>Source Files\Bai12_QuayLuiNhanhCan\BG</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
