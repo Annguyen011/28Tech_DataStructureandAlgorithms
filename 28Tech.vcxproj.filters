@@ -153,5 +153,14 @@
     <ClCompile Include="BG_13_2.cpp">
       <Filter>Source Files\Bai13</Filter>
     </ClCompile>
+    <ClCompile Include="BT14_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT14_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT14_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
