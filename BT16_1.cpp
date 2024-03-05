@@ -34,7 +34,26 @@ int main()
 	// Luon doi xung qua duong cheo chinh
 	// Ma tran trong so
 	// Hien thi thay vi 1 va 0 thi dung cac trong so de bieu dien
-	// 
+	// Duyet theo danh sach canh
+
+	cin >> n >> k;
+
+	int t = k;
+
+	while (t--)
+	{
+		int q, p;
+		cin >> q >> p;
+		f[q][p] = 1;
+	}
+
+	for (size_t i = 0; i < n; i++)
+	{
+		for (size_t j = 0; j < k; j++)
+		{
+			cout << f[i][j];
+		}
+	}
 
 	return 0;
 }
