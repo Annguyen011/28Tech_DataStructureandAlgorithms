@@ -216,5 +216,8 @@
     <ClCompile Include="BT15_11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BT16_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
