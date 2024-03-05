@@ -45,6 +45,7 @@ int main()
 		int q, p;
 		cin >> q >> p;
 		f[q][p] = 1;
+		f[p][q] = 1;
 	}
 
 	for (size_t i = 0; i < n; i++)
