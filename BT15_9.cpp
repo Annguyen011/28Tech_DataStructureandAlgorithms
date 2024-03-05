@@ -50,10 +50,12 @@ int main()
 			}
 			else
 			{
-
+				F[i][j] = F[i - 1][j];
 			}
 		}
 	}
+
+	cout << F[n][V];
 
 	return 0;
 }
