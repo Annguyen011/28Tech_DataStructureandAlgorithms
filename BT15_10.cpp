@@ -21,7 +21,46 @@ int f[1001][1001];
 
 int main()
 {
+	int w[1001];
+	int v[1001];
+	int V;
 
+	cin >> n >> V;
+
+	for (size_t i = 1; i <= n; i++)
+	{
+		cin >> w[i];
+	}
+
+	for (size_t i = 1; i <= n; i++)
+	{
+		cin >> v[i];
+	}
+
+	int F[1001][1001];
+	F[0][0] = 0;
+
+	for (size_t i = 0; i < 1001; i++)
+	{
+		F[i][0] = 1;
+	}
+
+	for (size_t i = 01; i <= n; i++)
+	{
+		for (size_t j = 1; j <= V; j++)
+		{
+			if (j >= w[i])
+			{
+				F[i][j] = v[i] + F[i - 1][j - w[i]] || F[i - 1][j];
+			}
+			else
+			{
+				F[i][j] = F[i - 1][j];
+			}
+		}
+	}
+
+	cout << F[n][V];
 
 	return 0;
 }
