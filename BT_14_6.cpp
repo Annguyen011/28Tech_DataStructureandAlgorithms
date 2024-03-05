@@ -18,6 +18,18 @@ int a[1001];
 
 int main()
 {
+	cin >> n;
+	for (size_t i = 0; i < n; i++)
+	{
+		cin >> a[i];
+	}
+
+	sort(a, a + n);
+
+	cout << max({
+		a[0] * a[1],
+		a[n] * a[n - 1]
+		});
 
 	return 0;
 }
