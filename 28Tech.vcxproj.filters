@@ -198,5 +198,8 @@
     <ClCompile Include="BT15_5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BT15_6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
