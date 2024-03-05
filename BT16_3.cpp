@@ -22,25 +22,10 @@ int f[1001][1001];
 
 int main()
 {
-	vector<set<int>> vt;
+	// DFS
+	// BFS
 
-	cin >> n >> k;
 
-	for (size_t i = 0; i < k; i++)
-	{
-		int temp1, temp2;
-		cin >> temp1 >> temp2;
-		vt[temp1].insert(temp2);
-		vt[temp2].insert(temp1);
-	}
-
-	for (size_t i = 0; i < vt.size(); i++)
-	{
-		for (int x : vt[i])
-		{
-			cout << x;
-		}
-	}
 
 	return 0;
 }
