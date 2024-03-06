@@ -25,27 +25,8 @@ vector<int> adj[1001];
 vector<pair<int, int >> dsCanh;
 bool visited[1001];
 
-bool DFS(int u)
-{
-	visited[u] = true;
-
-	for (int v : adj[u])
-	{
-		if (!visited[v])
-		{
-			a[v] = u;
-			return DFS(v);
-		}
-		else if (v != a[u])
-		{
-			return true;
-		}
-	}
-	return false;
-}
-
 int main()
-{	
+{
 
 
 	return 0;
