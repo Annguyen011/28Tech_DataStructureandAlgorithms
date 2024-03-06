@@ -27,23 +27,7 @@ bool visited[1001];
 
 int main()
 {
-	cin >> n >> m;
 
-	for (size_t i = 0; i < m; i++)
-	{
-		int temp1, int temp2;
-		adj[temp1].push_back(temp2);
-	}
-
-	for (size_t i = 01; i <= n; i++)
-	{
-		cout << i << ": ";
-
-		for (int v : adj[i])
-		{
-			cout << i << " ";
-		}
-	}
 
 	return 0;
 }
