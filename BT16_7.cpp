@@ -25,32 +25,9 @@ vector<int> adj[1001];
 vector<pair<int, int >> dsCanh;
 bool visited[1001];
 
-void DFS(int u)
-{
-	cout << u << " ";
-
-	visited[u] = true;
-
-	for (int i : adj[u])
-	{
-		if (!visited[i])
-		{
-			DFS(i);
-		}
-	}
-}
-
 int main()
 {
-	cin >> n >> m >> k;
 
-	for (size_t i = 0; i < m; i++)
-	{
-		int temp1, temp2;
-		adj[temp1].push_back(temp2);
-	}
-
-	DFS(1);
 
 	return 0;
 }
