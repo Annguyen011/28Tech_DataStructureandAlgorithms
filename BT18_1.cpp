@@ -25,10 +25,10 @@ vector<int> adj[1001];
 vector<pair<int, int >> dsCanh;
 bool visited[1001];
 
+
 void DFS(int u)
 {
 	visited[u] = true;
-	cnt++;
 	for (int v : adj[u])
 	{
 		if (!visited[v])
@@ -38,34 +38,18 @@ void DFS(int u)
 	}
 }
 
-bool Check()
-{
-	for (size_t i = 1; i <= n; i++)
-	{
-		cnt = 0;
-		memset(visited, false, sizeof(visited));
-		DFS(i);
-		if (cnt != n)
-		{
-			return false;
-		}
-	}
-	return true;
-}
 
 int main()
 {
-	cin >> n >> m;
-	for (size_t i = 0; i < m; i++)
+	vector<int > v;
+	for (int i = 1; i <= n; i++)
 	{
-		int x, y;
-		cin >> x >> y;
-		adj[x].push_back(y);
-	}
-
-	if (Check())
-	{
-		cout << " OK";
+		if (!visited[i])
+		{
+			v.push_back(i);
+			cnt++;
+			DFS(i);
+		}
 	}
 
 	return 0;
