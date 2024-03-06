@@ -24,34 +24,9 @@ vector<int> adj[1001];
 vector<pair<int, int >> dsCanh;
 bool visited[1001];
 
-//void Xuly(int i, string s)
-//{
-//	stringstream ss(s);
-//	string temp;
-//
-//	while (ss >> temp)
-//	{
-//		int j = stoi(temp);
-//
-//		if (j > i)
-//		{
-//			cout << i << " " << j << endl;
-//		}
-//	}
-//}
-
 int main()
 {
-	cin >> n;
-
-	for (size_t i = 0; i < n; i++)
-	{
-		string s;
-		getline(cin, s);
-
-		//Xuly(i, s);
 
 
-	}
 	return 0;
 }
