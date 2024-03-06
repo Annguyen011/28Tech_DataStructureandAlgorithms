@@ -261,5 +261,8 @@
     <ClCompile Include="BT18_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BT18_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
