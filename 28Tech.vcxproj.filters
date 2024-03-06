@@ -255,5 +255,11 @@
     <ClCompile Include="BT18_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BT18_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT18_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
