@@ -25,6 +25,43 @@ vector<int> adj[1001];
 vector<pair<int, int >> dsCanh;
 bool visited[1001];
 
+void Nhap()
+{
+	cin >> n >> m;
+	for (size_t i = 0; i < m; i++)
+	{
+		int temp1, temp2;
+		cin >> temp1 >> temp2;
+		adj[temp1].push_back(temp2);
+		adj[temp2].push_back(temp1);
+	}
+}
+
+void BFS(int u)
+{
+	queue<int> q;   
+	q.push(u);
+	visited[u] = true;
+
+	// 3 4 5 7 6   
+	// 1 2
+	while (!q.empty())
+	{
+		int x = q.front();
+		q.pop();
+		cout << x << " ";
+
+		for (int y : adj[x])
+		{
+			if (!visited[y])
+			{
+				q.push(y);
+				visited[y] = true;
+			}
+		}
+	}
+}
+
 int main()
 {
 
