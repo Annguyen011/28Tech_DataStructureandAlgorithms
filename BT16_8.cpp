@@ -53,7 +53,7 @@ void DFS(int u)
 
 void BFS(int u)
 {
-	queue<int> q;   
+	queue<int> q;
 	q.push(u);
 	visited[u] = true;
 
@@ -78,7 +78,17 @@ void BFS(int u)
 
 int main()
 {
+	cin >> s;
+	while (s--)
+	{
+		int x, y;
+		cin >> x >> y;
 
+		BFS(x);
+		cout << visited[y];
+
+		memset(visited, sizeof(visited), false);
+	}
 
 	return 0;
 }
