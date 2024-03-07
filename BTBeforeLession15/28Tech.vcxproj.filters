@@ -40,12 +40,6 @@
     <Filter Include="Source Files\Bai13">
       <UniqueIdentifier>{21829173-24f9-4760-9849-70ba52a7a678}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\_ABC">
-      <UniqueIdentifier>{28763be0-31f8-4186-8c91-1bdc64d306ec}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\TTCB">
-      <UniqueIdentifier>{cc533139-6931-4525-85fd-6ce163a78c35}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GB_5.cpp">
@@ -159,118 +153,115 @@
     <ClCompile Include="BG_13_2.cpp">
       <Filter>Source Files\Bai13</Filter>
     </ClCompile>
+    <ClCompile Include="BT14_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT14_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT14_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="BT_14_3.cpp">
       <Filter>Source Files\Bai13</Filter>
     </ClCompile>
-    <ClCompile Include="BT_14_6.cpp">
-      <Filter>Source Files\_ABC</Filter>
-    </ClCompile>
-    <ClCompile Include="BT14_1.cpp">
-      <Filter>Source Files\_ABC</Filter>
-    </ClCompile>
-    <ClCompile Include="BT14_2.cpp">
-      <Filter>Source Files\_ABC</Filter>
-    </ClCompile>
-    <ClCompile Include="BT14_3.cpp">
-      <Filter>Source Files\_ABC</Filter>
-    </ClCompile>
     <ClCompile Include="BT14_4.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT14_5.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_14_6.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT14_7.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT14_8.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT14_9.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_1.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_2.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_3.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_4.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_5.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_6.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_7.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_8.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_9.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_10.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT15_11.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_1.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_2.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_3.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_4.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_5.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_6.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_7.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_8.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_9.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_10.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_11.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT16_12.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT18_1.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT18_2.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT18_3.cpp">
-      <Filter>Source Files\_ABC</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BT18_4.cpp">
-      <Filter>Source Files\_ABC</Filter>
-    </ClCompile>
-    <ClCompile Include="TTCB\LastDigitDiffZero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
