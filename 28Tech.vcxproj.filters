@@ -271,7 +271,10 @@
       <Filter>Source Files\_ABC</Filter>
     </ClCompile>
     <ClCompile Include="TTCB\LastDigitDiffZero.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\TTCB</Filter>
+    </ClCompile>
+    <ClCompile Include="BTBeforeLession15\digitsProduct.cpp">
+      <Filter>Source Files\TTCB</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
