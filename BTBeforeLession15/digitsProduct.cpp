@@ -25,3 +25,8 @@ int f[1001][1001];
 vector<int> adj[1001];
 vector<int> tadj[1001];
 
+int main()
+{
+
+
+}
