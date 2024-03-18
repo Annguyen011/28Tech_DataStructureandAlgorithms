@@ -285,5 +285,8 @@
     <ClCompile Include="BuiTheTam\B2_BinarySearch.cpp">
       <Filter>Source Files\BuiTheTam</Filter>
     </ClCompile>
+    <ClCompile Include="BuiTheTam\B3_InterpolationBinarySearch.cpp">
+      <Filter>Source Files\BuiTheTam</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

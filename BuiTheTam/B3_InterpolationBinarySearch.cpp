@@ -1,15 +1,17 @@
+#include<iostream>
 
-#include <iostream>
 using namespace std;
-int BinarySearch(int n, int a[], int x)
+
+int Search(int a[], int n, int x)
 {
-	int m;
 	int l = 0;
 	int r = n - 1;
+	int m;
 
-	while (l <= r)
+	while (a[l] != a[r] && x >= a[l] && x <= a[r])
 	{
-		m = (l + r) / 2;
+		m = l + ((r - l) * (x - a[l]) / (a[r] - a[l]));
+
 		if (a[m] < x)
 		{
 			l = m + 1;
@@ -23,9 +25,12 @@ int BinarySearch(int n, int a[], int x)
 			return m;
 		}
 	}
-	return -1;
-}
 
+	if (a[l] == x)
+	{
+		return l;
+	}
+}
 
 int main()
 {
@@ -34,5 +39,5 @@ int main()
 
 
 
-	cout << BinarySearch(n, a, 10);
+	cout << Search(a, n, 4);
 }
